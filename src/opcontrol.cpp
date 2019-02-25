@@ -64,9 +64,9 @@ void opcontrol() {
         }
 
         //---LAUNCHER---
-        if(master.get_digital(DIGITAL_Y)) {
+        if(master.get_digital(DIGITAL_X)) {
             launcher.move(127);
-        } else if(master.get_digital(DIGITAL_A)) {
+        } else if(master.get_digital(DIGITAL_B)) {
             launcher.move(-127);
         } else {
             launcher.move(0);

@@ -77,7 +77,7 @@ void initialize() {
     custom_style_background.body.main_color = LV_COLOR_BLACK;
     custom_style_background.body.grad_color = LV_COLOR_BLACK;
 
-        lv_style_copy(&custom_style, &lv_style_pretty);
+    lv_style_copy(&custom_style, &lv_style_pretty);
     custom_style.body.main_color = LV_COLOR_BLACK;
     custom_style.body.grad_color = LV_COLOR_BLACK;
     custom_style.body.radius = 0;
